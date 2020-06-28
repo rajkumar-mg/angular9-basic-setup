@@ -1,0 +1,21 @@
+.sign-in {
+
+    &__mat-card {
+        vertical-align: middle;
+        margin: 0 auto;
+        top: calc(100px + 15px);
+
+        @media only screen and (max-width: 1024px) and (min-width: 969px) {
+            max-width: 50%;
+        }
+
+        @media only screen and (min-width: 1025px) {
+            max-width: 30%;
+
+        }
+    }
+
+    &__mat-form-field {
+        width: 100%;
+    }
+}
